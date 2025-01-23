@@ -24,7 +24,7 @@ const Header: React.FC = () => {
     return (
         <header className={`${styles.header} ${showNav ? styles.show : ''}`}>
             <div className={styles.logo}>
-                <Link href="/public">
+                <Link href="/">
                     <img
                         src="/mnrc-logo-noBackround.jpg"
                         alt="Morley Noranda Recreation Club Logo"

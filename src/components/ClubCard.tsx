@@ -1,6 +1,6 @@
 // ClubCard.tsx
 import React from 'react';
-import styles from './ClubCard.module.css';
+import styles from '/ClubCard.module.css';
 
 interface ClubCardProps {
     name: string;
