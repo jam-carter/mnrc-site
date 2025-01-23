@@ -1,5 +1,4 @@
 import Header from "../../components/Header";
-import styles from "./about.module.css"
 import FooterBlock from "@/components/FooterBlock";
 
 function About () {

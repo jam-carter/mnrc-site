@@ -1,4 +1,3 @@
-import Header from '../components/Header';
 import MainBanner from "@/components/landingPageComponents/MainBanner";
 import IntroBlock from "@/components/landingPageComponents/IntroBlock";
 import AffiliateClubBlock from "@/components/landingPageComponents/AffiliateClubBlock";
