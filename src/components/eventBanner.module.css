@@ -1,0 +1,27 @@
+.banner {
+    position: relative;
+    width: 90%;
+    height: 300px; /* Adjust the height as needed */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px; /* Adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    margin: 20px 0; /* Adds spacing above and below */
+    overflow: hidden; /* Ensures rounded corners work */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Adds hover transition */
+}
+
+.banner:hover {
+    transform: scale(1.05); /* Slight pop-out effect on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+.bannerText {
+    color: transparent;
+    font-size: 2rem; /* Adjust the text size as needed */
+    font-weight: bold;
+    text-align: center;
+}

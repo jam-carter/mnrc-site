@@ -1,0 +1,93 @@
+.roomSectionBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FBFEF9;
+    padding: 2rem 1rem;
+}
+
+.contentContainer {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: center;
+}
+
+.textContainer {
+    margin-bottom: 2rem;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.paragraph {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.imageContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.image:hover {
+    transform: scale(1.05);
+}
+
+.tabContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.tabButton {
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+    color: #555;
+    margin: 0 1rem;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out, border-bottom 0.3s ease-in-out;
+    border-bottom: 2px solid transparent;
+    padding: 0.5rem 0;
+}
+
+.tabButton:hover {
+    color: #007bff;
+}
+
+.activeTab {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+}

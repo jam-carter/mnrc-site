@@ -1,0 +1,54 @@
+.sponsersBlock {
+    padding: 3rem;
+    background-color: #fbfef9;
+    text-align: center;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.carousel {
+    position: relative;
+    overflow: hidden;
+    width: 80%; /* Width of the carousel */
+    margin: 0 auto;
+    height: 550px; /* Adjust to match the image size */
+}
+
+.imageContainer {
+    display: flex;
+    animation: scroll 30s linear infinite; /* Slow down the speed */
+    margin-top: 10px ;
+}
+
+.imageContainer:hover {
+    animation-play-state: paused; /* Pause the animation on hover */
+}
+
+.image {
+    flex-shrink: 0;
+    width: 450px; /* Fixed size for the images */
+    height: auto;
+    margin-right: 3rem; /* Space between images */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.image:hover {
+    transform: scale(1.05); /* Scale up the image on hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Optional for a stronger shadow */
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}

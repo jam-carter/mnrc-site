@@ -1,0 +1,27 @@
+/* Outer container to simulate the map viewport */
+.mapContainer {
+    width: 800px; /* Set the desired size for your map container */
+    height: 400px;
+    overflow: hidden;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    position: relative;
+    cursor: grab;
+}
+
+/* Image container for the draggable map */
+.mapImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    will-change: transform;
+    cursor: grab;
+}
+
+.mapImage img {
+    display: block;
+    width: 1200px; /* Larger than the viewport to allow dragging */
+    height: 800px;
+    user-select: none;
+    pointer-events: none; /* Prevents default interactions */
+}

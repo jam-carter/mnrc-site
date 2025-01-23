@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", /* Use the latest JavaScript features */
+    "module": "CommonJS", /* Use CommonJS modules */
+    "strict": true, /* Enable all strict type-checking options */
+    "esModuleInterop": true, /* Enable compatibility with CommonJS modules */
+    "forceConsistentCasingInFileNames": true, /* Enforce case-sensitive file imports */
+    "skipLibCheck": true, /* Skip type-checking declaration files */
+    "moduleResolution": "Node", /* Resolve modules using Node.js module resolution */
+    "baseUrl": "./", /* Base path for module resolution */
+    "paths": {
+      "@/*": [
+        "src/*"
+      ] /* Aliases for cleaner imports */
+    },
+    "resolveJsonModule": true, /* Enable importing JSON files */
+    "allowSyntheticDefaultImports": true, /* Allow default imports for modules with no default export */
+    "jsx": "preserve", /* Specify React JSX transform */
+    "outDir": "./dist", /* Output directory for compiled files */
+    "rootDir": "./src", /* Root directory of input files */
+    "noUnusedLocals": true, /* Warn on unused local variables */
+    "noUnusedParameters": true, /* Warn on unused function parameters */
+    "noImplicitReturns": true, /* Warn on functions missing a return */
+    "noFallthroughCasesInSwitch": true, /* Warn on fallthrough cases in switch statements */
+    "useDefineForClassFields": true /* Use standard-compliant class fields */,
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "noEmit": true,
+    "incremental": true,
+    "isolatedModules": true
+  },
+  "include": [
+    "src/**/*"
+  ], /* Include all TypeScript files in the src folder */
+  "exclude": [
+    "node_modules",
+    "dist"
+  ] /* Exclude unnecessary files */
+}

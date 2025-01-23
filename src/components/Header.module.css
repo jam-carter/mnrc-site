@@ -1,0 +1,98 @@
+/* Header Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 8rem;
+    background-color: #fbfef9;
+    color: #363437; /* Adjusted color for better contrast */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Prominent shadow for better depth */
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Keeps the header on top */
+}
+
+/* Logo Styles */
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #363437; /* Adjusted for consistency with the theme */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.logoImage {
+    max-height: 35px;
+    width: auto;
+}
+
+/* Navigation Bar Styles */
+.navBar {
+    display: flex;
+}
+
+.navList {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navItem {
+    margin: 0 1.5rem;
+    position: relative; /* Required for dropdown positioning */
+}
+
+/* Navigation Links */
+.navItem a {
+    text-decoration: none;
+    color: #363437;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+.navItem a:hover {
+    color: #1e81b0; /* Updated hover color for better visual appeal */
+    text-decoration: underline;
+}
+
+/* Dropdown Menu Styles */
+.dropdown {
+    position: relative;
+}
+
+.dropdownMenu {
+    display: none; /* Hidden by default */
+    position: absolute;
+    top: 100%; /* Places it below the parent */
+    left: 0;
+    background-color: #fbfef9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for dropdown */
+    border-radius: 4px;
+    padding: 0.5rem 0;
+    z-index: 1001; /* Ensures it stays on top */
+    list-style: none;
+    min-width: 180px; /* Ensures consistent width */
+}
+
+.dropdownItem {
+    padding: 0.5rem 1rem;
+}
+
+.dropdownItem a {
+    color: #363437;
+    text-decoration: none;
+    font-size: 1rem;
+    display: block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dropdownItem a:hover {
+    background-color: #ffffff;
+    color: #1e81b0;
+}
+
+/* Show Dropdown Menu on Hover */
+.dropdown:hover .dropdownMenu {
+    display: block;
+}

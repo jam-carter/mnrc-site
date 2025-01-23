@@ -1,0 +1,52 @@
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.photoSection {
+    flex: 1;
+    position: relative;
+    text-align: center;
+    margin-right: 20px; /* Adjust spacing between sections */
+}
+
+.photo {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.controls {
+    margin-top: 10px;
+}
+
+.controls button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.textSection {
+    flex: 1;
+    margin-left: 20px; /* Adjust spacing between sections */
+    text-align: center;
+}
+
+.textSection h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+.textSection p {
+    font-size: 16px;
+    color: #555;
+}

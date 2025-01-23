@@ -1,0 +1,99 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 4rem;
+    background-color: #fbfef9;
+    color: #363437;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    position: fixed;
+    top: -100px; /* Initially hidden */
+    width: 100%;
+    z-index: 1000;
+    transition: top 0.3s ease-in-out; /* Smooth slide-down effect */
+}
+
+/* Logo Styles */
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #363437; /* Adjusted for consistency with the theme */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.logoImage {
+    max-height: 35px;
+    width: auto;
+}
+
+.header.show {
+    top: 0; /* Slides into view */
+}
+
+.navBar {
+    display: flex;
+}
+
+.navList {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navItem {
+    margin: 0 1.5rem;
+    position: relative;
+}
+
+.navItem a {
+    text-decoration: none;
+    color: #363437;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+.navItem a:hover {
+    color: #1e81b0;
+    text-decoration: underline;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdownMenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fbfef9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 0.5rem 0;
+    z-index: 1001;
+    list-style: none;
+    min-width: 180px;
+}
+
+.dropdownItem {
+    padding: 0.5rem 1rem;
+}
+
+.dropdownItem a {
+    color: #363437;
+    text-decoration: none;
+    font-size: 1rem;
+    display: block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dropdownItem a:hover {
+    background-color: #ffffff;
+    color: #1e81b0;
+}
+
+.dropdown:hover .dropdownMenu {
+    display: block;
+}

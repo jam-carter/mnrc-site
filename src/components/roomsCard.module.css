@@ -1,0 +1,103 @@
+.roomCard {
+    display: flex;
+    width: 80%;
+    align-items: stretch;
+    justify-content: space-between;
+    text-align: center;
+    border: 1px solid #cce4f0; /* Light blue border for consistency */
+    border-radius: 8px;
+    overflow: visible; /* Allow child elements to extend outside */
+    box-shadow: 0 4px 8px rgba(0, 98, 143, 0.2); /* Subtle blue shadow */
+    margin: 20px 0;
+    background-color: #ffffff; /* White background for cards */
+    position: relative; /* Needed for proper positioning of children */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.roomCard:hover {
+    transform: none; /* No movement for the card itself */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.textSection {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000000; /* Deep blue for titles */
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 1rem;
+    color: #4b4b4b; /* Neutral gray for descriptions */
+    margin-bottom: 20px;
+}
+
+.buttonGroup {
+    display: flex;
+    gap: 10px;
+}
+
+.bookNowButton,
+.moreInfoButton {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.bookNowButton {
+    background-color: #28a745; /* Green for "Book Now" */
+    color: #fff;
+}
+
+.bookNowButton:hover {
+    background-color: #218838;
+    transform: translateY(-2px); /* Adds hover effect */
+}
+
+.moreInfoButton {
+    background-color: #0077c8; /* Vivid blue for "More Info" */
+    color: #fff;
+}
+
+.moreInfoButton:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px); /* Adds hover effect */
+}
+
+.photoSection {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    overflow: visible; /* Ensures the image is not clipped */
+    position: relative;
+    padding: 0; /* No padding to ensure flush alignment */
+}
+
+.photo {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px; /* Matches card style */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    z-index: 1; /* Ensure the image stays on top */
+}
+
+/* Apply hover effect only to the image */
+.photoSection:hover .photo {
+    transform: scale(1.1); /* Scale the image */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow for the image */
+}

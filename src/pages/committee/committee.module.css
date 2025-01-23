@@ -1,0 +1,92 @@
+.committeePage {
+    font-family: Arial, sans-serif;
+    color: #2a2a2a; /* Neutral dark gray text color */
+    background: linear-gradient(to bottom, #f9f9f9, #eaeaea); /* Subtle gray gradient for depth */
+}
+
+.page {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light gray background */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionHeading {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 80px;
+    color: #2a2a2a; /* Neutral dark gray for the heading */
+    font-size: 2.8em; /* Slightly larger heading */
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.sectionHeading::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color: #a94ca9; /* Keep the purple bar unchanged */
+    margin: 10px auto 0 auto;
+    border-radius: 2px;
+}
+
+.container {
+    background-color: #ffffff; /* White box for the content */
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #dcdcdc; /* Light gray border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Neutral gray shadow */
+    max-width: 1200px;
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #2a2a2a; /* Neutral dark gray for titles */
+    margin-bottom: 10px;
+}
+
+.description {
+    text-align: center;
+    font-size: 16px;
+    color: #4f4f4f; /* Medium gray for descriptions */
+    margin-bottom: 20px;
+    line-height: 1.5;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Adjust for number of members */
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+
+.grid > div {
+    background-color: #ffffff; /* White background for grid items */
+    border: 1px solid #dcdcdc; /* Light gray border */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center;
+}
+
+.grid > div h3 {
+    color: #2a2a2a; /* Neutral dark gray for grid item titles */
+    margin-bottom: 10px;
+}
+
+.grid > div p {
+    color: #4f4f4f; /* Medium gray for grid item text */
+    font-size: 14px;
+    line-height: 1.5;
+}

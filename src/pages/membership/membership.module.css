@@ -1,0 +1,100 @@
+.membershipPage {
+    font-family: Arial, sans-serif;
+    color: #2a2a2a; /* Neutral dark gray for text */
+    background: linear-gradient(to bottom, #f7f7f7, #f9f9f9); /* Subtle gradient for depth */
+}
+
+.contentContainer {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #dcdcdc; /* Light gray border */
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    position: relative;
+    overflow: hidden;
+}
+
+.contentContainer::before {
+    content: '';
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    width: 200px;
+    height: 200px;
+    background: rgba(162, 95, 224, 0.15); /* Purple tone for accent */
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.contentContainer::after {
+    content: '';
+    position: absolute;
+    bottom: -55px;
+    left: -30px;
+    width: 150px;
+    height: 150px;
+    background: rgba(162, 95, 224, 0.15); /* Matching purple tone for consistency */
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.sectionHeading {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 80px;
+    color: #000000; /* Neutral dark gray for text */
+    font-size: 2.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.sectionHeading::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color: #a25fe0; /* Purple accent bar */
+    margin: 10px auto 0 auto;
+    border-radius: 2px;
+}
+
+.description {
+    font-size: 1rem;
+    color: #666; /* Mid-gray for subtle contrast */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.downloadLink {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(90deg, #a25fe0, #8755c7); /* Purple gradient for buttons */
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.downloadPlaceholder {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.downloadLink:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Slightly elevated on hover */
+}
+
+.paragraph {
+    display: block;
+    margin: 20px 130px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #dcdcdc; /* Light gray for subtle division */
+    color: #333; /* Neutral text color */
+    text-align: justify;
+}
