@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './CommitteeCard.module.css';
+import styles from './committeeCard.module.css';
 
 type CommitteeCardProps = {
     name: string;
