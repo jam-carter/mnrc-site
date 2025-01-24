@@ -10,7 +10,7 @@ const EventsPage: React.FC = () => {
         <div className={styles.eventsPage}>
             <Header />
             <h1 className={styles.sectionHeading}>Events</h1>
-            <div className={styles.page}>
+            <div>
                 <div className={styles.container}>
                     <p className={styles.description}>See what's on around the club!</p>
                     <div className={styles.gridContainer}>
