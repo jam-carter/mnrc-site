@@ -1,13 +1,26 @@
 import styles from './membershipPricingTable.module.css';
 
-function Table({ columns, data }) {
-    // Explicit mapping of column names to keys in the data
-    const columnKeyMap = {
+interface DataRow {
+    club: string;
+    membershipType: string;
+    fullPrice: string;
+    pensionerPrice: string;
+    juniorPrice: string;
+    [key: string]: any; // Allow additional properties if needed
+}
+
+interface TableProps {
+    columns: string[];
+    data: DataRow[];
+}
+
+function Table({ columns, data }: TableProps) {
+    const columnKeyMap: { [key: string]: keyof DataRow } = {
         "Club": "club",
         "Membership Type": "membershipType",
         "Full Price": "fullPrice",
         "Pensioner Price": "pensionerPrice",
-        "Junior Price": "juniorPrice"
+        "Junior Price": "juniorPrice",
     };
 
     return (

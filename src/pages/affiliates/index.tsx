@@ -1,7 +1,7 @@
 import Header from "../../components/header";
 import styles from "./affiliates.module.css";
 import FooterBlock from "@/components/footerBlock";
-import AffiliatesCard from "@/components/AffiliatesCard";
+import AffiliatesCard from "@/components/affiliatesCard";
 import AffiliatesCardFlipped from "@/components/affiliatesCardFlipped";
 
 function Affiliates() {
