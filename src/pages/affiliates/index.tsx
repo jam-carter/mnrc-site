@@ -1,6 +1,6 @@
-import Header from "../../components/Header";
+import Header from "../../components/header";
 import styles from "./affiliates.module.css";
-import FooterBlock from "@/components/FooterBlock";
+import FooterBlock from "@/components/footerBlock";
 import AffiliatesCard from "@/components/AffiliatesCard";
 import AffiliatesCardFlipped from "@/components/affiliatesCardFlipped";
 

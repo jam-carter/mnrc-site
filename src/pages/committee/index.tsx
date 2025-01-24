@@ -1,8 +1,8 @@
 import React from 'react';
 import CommitteeCard from '@/components/committeeCard';
 import styles from './committee.module.css';
-import Footer from "@/components/FooterBlock";
-import Header from "@/components/Header";
+import Footer from "@/components/footerBlock";
+import Header from "@/components/header";
 
 const members = [
     { name: 'Mick Wainwright', title: 'President', photoUrl: './images/management/placeholderMale.png' },

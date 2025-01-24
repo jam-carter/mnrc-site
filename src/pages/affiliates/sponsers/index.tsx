@@ -1,6 +1,6 @@
-import Header from "@/components/Header";
+import Header from "@/components/header";
 import styles from "./sponsers.module.css";
-import FooterBlock from "@/components/FooterBlock";
+import FooterBlock from "@/components/footerBlock";
 import SponsersCard from "@/components/sponsersCard";
 
 function Sponsers() {

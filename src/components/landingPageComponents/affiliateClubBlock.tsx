@@ -1,6 +1,6 @@
 // AffiliateClubsBlock.tsx
 import React from 'react';
-import styles from './AffiliateClubBlock.module.css';
+import styles from './affiliateClubBlock.module.css';
 import ClubCard from '../clubCard';
 
 const clubs = [

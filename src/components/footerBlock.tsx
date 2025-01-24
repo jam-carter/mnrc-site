@@ -1,6 +1,6 @@
 // Footer.tsx
 import React from 'react';
-import styles from './FooterBlock.module.css';
+import styles from './footerBlock.module.css';
 
 const Footer: React.FC = () => {
     const scrollToTop = () => {

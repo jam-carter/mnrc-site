@@ -1,8 +1,8 @@
 import React from 'react';
 import HistoryBlock from '../../components/historyBlock';
 import styles from './history.module.css';
-import Header from "@/components/Header";
-import Footer from "@/components/FooterBlock";
+import Header from "@/components/header";
+import Footer from "@/components/footerBlock";
 
 const History = () => {
     const historyData = [

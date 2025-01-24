@@ -1,6 +1,5 @@
-// MembershipBlock.tsx
 import React from 'react';
-import styles from './MembershipBlock.module.css';
+import styles from './membershipBlock.module.css';
 
 const MembershipBlock: React.FC = () => {
     return (

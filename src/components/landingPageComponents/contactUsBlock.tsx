@@ -1,6 +1,6 @@
-// ContactUsBlock.tsx
+// contactUsBlock.tsx
 import React from 'react';
-import styles from './ContactUsBlock.module.css';
+import styles from './contactUsBlock.module.css';
 
 
 const ContactUsBlock: React.FC = () => {

@@ -1,6 +1,5 @@
-// MainBanner.tsx
 import React from 'react';
-import styles from './MainBanner.module.css';
+import styles from './mainBanner.module.css';
 
 const MainBanner: React.FC = () => {
     return (

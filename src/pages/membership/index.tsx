@@ -1,5 +1,5 @@
-import Header from "../../components/Header";
-import FooterBlock from "@/components/FooterBlock";
+import Header from "../../components/header";
+import FooterBlock from "@/components/footerBlock";
 import MembershipPricingTable from "@/components/membershipPricingTable";
 import styles from "./membership.module.css";
 

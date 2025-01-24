@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import Header from "@/components/Header";
-import FooterBlock from "@/components/FooterBlock";
+import Header from "@/components/header";
+import FooterBlock from "@/components/footerBlock";
 import styles from "./photoGallery.module.css";
 
 function PhotoGallery() {

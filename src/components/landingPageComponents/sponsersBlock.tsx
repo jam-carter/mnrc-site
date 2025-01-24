@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './SponsersBlock.module.css';
+import styles from './sponsersBlock.module.css';
 
 const images = [
     { src: '/placeholder-baker.jpg', alt: 'Placeholder Image baker' },

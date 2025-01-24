@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styles from './RoomSectionBlock.module.css';
+import styles from './roomSectionBlock.module.css';
 
 interface Room {
     id: number;

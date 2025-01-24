@@ -1,11 +1,11 @@
-import MainBanner from "@/components/landingPageComponents/MainBanner";
-import IntroBlock from "@/components/landingPageComponents/IntroBlock";
-import AffiliateClubBlock from "@/components/landingPageComponents/AffiliateClubBlock";
-import RoomSectionBlock from "@/components/landingPageComponents/RoomSectionBlock";
-import MembershipBlock from "@/components/landingPageComponents/MembershipBlock";
-import SponsersBlock from "@/components/landingPageComponents/SponsersBlock";
-import ContactUsBlock from "@/components/landingPageComponents/ContactUsBlock";
-import FooterBlock from "@/components/FooterBlock";
+import MainBanner from "@/components/landingPageComponents/mainBanner";
+import IntroBlock from "@/components/landingPageComponents/introBlock";
+import AffiliateClubBlock from "@/components/landingPageComponents/affiliateClubBlock";
+import RoomSectionBlock from "@/components/landingPageComponents/roomSectionBlock";
+import MembershipBlock from "@/components/landingPageComponents/membershipBlock";
+import SponsersBlock from "@/components/landingPageComponents/sponsersBlock";
+import ContactUsBlock from "@/components/landingPageComponents/contactUsBlock";
+import FooterBlock from "@/components/footerBlock";
 import HomePageHeader from "@/components/landingPageComponents/homePageHeader";
 
 // Colour Pallette: jet - #363537, 'white' - #fbfef9, crimson - #d62839

@@ -1,6 +1,5 @@
-// IntroBlock.tsx
 import React from 'react';
-import styles from './IntroBlock.module.css';
+import styles from './introBlock.module.css';
 
 const IntroBlock: React.FC = () => {
     return (
