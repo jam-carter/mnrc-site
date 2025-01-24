@@ -53,7 +53,7 @@ function Membership() {
 
                 <MembershipPricingTable columns={membershipColumns} data={membershipData}/>
 
-                <p className={styles.downloadPlaceholder}>
+                <p className={styles.downloadPDF}>
                     <a
                         href="/MNRC%20Nomination%20Form%202024-2025.pdf"
                         className={styles.downloadLink}

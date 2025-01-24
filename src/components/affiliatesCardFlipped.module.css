@@ -13,7 +13,7 @@
     flex: 1;
     position: relative;
     text-align: center;
-    margin-right: 20px; /* Adjust spacing between sections */
+    margin-right: 20px;
 }
 
 .photo {
@@ -36,7 +36,7 @@
 
 .textSection {
     flex: 1;
-    margin-left: 20px; /* Adjust spacing between sections */
+    margin-left: 20px;
     text-align: center;
 }
 

@@ -1,15 +1,15 @@
 .affiliatesPage {
     font-family: Arial, sans-serif;
-    color: #2a2a2a; /* Neutral dark gray */
-    background: linear-gradient(to bottom, #f9f9f9, #eaeaea); /* Subtle gray gradient for depth */
+    color: #2a2a2a;
+    background: linear-gradient(to bottom, #f9f9f9, #eaeaea);
 }
 
 .sectionHeading {
     text-align: center;
     margin-bottom: 40px;
     margin-top: 80px;
-    color: #2a2a2a; /* Neutral dark gray for headings */
-    font-size: 2.8em; /* Slightly larger heading */
+    color: #2a2a2a;
+    font-size: 2.8em;
     font-weight: bold;
     text-transform: uppercase;
     position: relative;
@@ -20,7 +20,7 @@
     display: block;
     width: 80px;
     height: 4px;
-    background-color: #d90000; /* Keep the red accent bar */
+    background-color: #d90000;
     margin: 10px auto 0 auto;
     border-radius: 2px;
 }
@@ -30,22 +30,22 @@
     padding: 25px;
     margin: 25px auto;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Neutral gray shadow */
-    border: 1px solid #dcdcdc; /* Light gray border */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #dcdcdc;
     max-width: 1100px;
 }
 
 .pageTitle {
     text-align: center;
     margin: 20px 0;
-    font-size: 34px; /* Larger title */
-    color: #333333; /* Dark gray for the page title */
+    font-size: 34px;
+    color: #333333;
 }
 
 .description {
     font-size: 16px;
     line-height: 1.6;
-    color: #4f4f4f; /* Medium gray for descriptions */
+    color: #4f4f4f;
     text-align: center;
     margin: 20px auto;
     padding: 0 20px;
@@ -66,18 +66,18 @@
     margin: 0 auto;
 }
 
-.placeholderLink {
+.sponserLink {
     display: inline-block;
     margin: 15px 0;
-    font-size: 18px; /* Slightly larger link text */
+    font-size: 18px;
     text-align: center;
-    color: #555555; /* Neutral gray for links */
+    color: #555555;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
-.placeholderLink:hover {
-    color: #333333; /* Darker gray on hover */
+.sponserLink:hover {
+    color: #333333;
     text-decoration: underline;
 }

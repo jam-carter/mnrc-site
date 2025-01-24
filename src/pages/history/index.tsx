@@ -43,7 +43,7 @@ const History = () => {
     return (
         <div className={styles.historyPage}>
             <Header />
-            <div className={styles.page}>
+            <div>
                 <h1 className={styles.heading}>Our History</h1>
                 <div className={styles.timelineContainer}>
                     {historyData.map((section, index) => (

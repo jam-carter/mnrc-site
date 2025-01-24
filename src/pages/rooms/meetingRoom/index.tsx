@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styles from '../mainHall/mainHall.module.css';
+import styles from '../allRooms.module.css';
 import Header from "@/components/Header";
 import Footer from "@/components/FooterBlock";
 

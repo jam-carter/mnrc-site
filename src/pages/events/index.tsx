@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../../components/Header";
 import Footer from "@/components/FooterBlock";
-import LargeEventCard from "@/components/largeEventCard";
+import LargeEventCard from "@/components/eventCard";
 import Banner from "../../components/eventBanner";
 import styles from "./events.module.css";
 

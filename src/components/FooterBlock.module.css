@@ -3,7 +3,7 @@
     color: #fff;
     text-align: center;
     padding: 1rem 0;
-    position: relative; /* Allows positioning of the button */
+    position: relative;
 }
 
 .container {
@@ -18,14 +18,13 @@
     color: #bbb;
 }
 
-/* Back to Top Button */
 .backToTopButton {
-    position: absolute; /* Positioning relative to the footer */
-    top: 50%; /* Vertically center the button */
-    right: 1rem; /* Adjust distance from the right edge */
-    transform: translateY(-50%); /* Ensure true vertical centering */
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-50%);
     padding: 0.5rem 1rem;
-    background-color: #444; /* Dark gray to match the footer */
+    background-color: #444;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -35,6 +34,6 @@
 }
 
 .backToTopButton:hover {
-    background-color: #666; /* Slightly lighter gray for hover */
+    background-color: #666;
 }
 

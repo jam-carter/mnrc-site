@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #ffffff; /* Card background */
+    background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 10px 200px 10px 200px;
@@ -20,10 +20,10 @@
 .photoContainer {
     width: 100px;
     height: 100px;
-    border-radius: 50%; /* Makes the photo circular */
+    border-radius: 50%;
     overflow: hidden;
     margin-bottom: 16px;
-    border: 2px solid #eeeeee; /* Optional border around the photo */
+    border: 2px solid #eeeeee;
 }
 
 .photo {

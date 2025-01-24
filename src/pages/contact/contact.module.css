@@ -1,24 +1,15 @@
-/* General page styling */
-.body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom, #f9f9f9, #eaeaea); /* Subtle gray gradient for depth */
-}
-
-/* Wrapper for the page content */
 .contactUsPage {
     font-family: Arial, sans-serif;
-    color: #2a2a2a; /* Neutral dark gray text color */
+    color: #2a2a2a;
     background-color: #f9f9f9;
 }
 
-/* Heading styles */
 .heading {
     text-align: center;
     margin-bottom: 40px;
     margin-top: 80px;
-    color: #000000; /* Neutral dark gray for the heading */
-    font-size: 2.8em; /* Slightly larger heading */
+    color: #000000;
+    font-size: 2.8em;
     font-weight: bold;
     text-transform: uppercase;
     position: relative;
@@ -28,44 +19,41 @@
     content: '';
     width: 80px;
     height: 4px;
-    background-color: #5fd1e0; /* Keep the purple bar unchanged */
+    background-color: #5fd1e0;
     margin: 10px auto 0 auto;
     border-radius: 2px;
     display: block;
 }
 
-/* White container for content */
 .container {
     background-color: #ffffff;
     padding: 2rem;
     margin: 2rem auto;
     max-width: 1200px;
-    border: 1px solid #dcdcdc; /* Light gray border */
+    border: 1px solid #dcdcdc;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle neutral gray shadow */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Section for contact cards and info */
 .contactUsSection {
     display: flex;
-    justify-content: space-between; /* Ensure equal spacing */
-    align-items: stretch; /* Make both components the same height */
-    gap: 5rem; /* Adjust spacing as needed */
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 5rem;
     max-width: 1000px;
     margin: 0 auto;
     padding-bottom: 100px;
 }
 
 .contactUsSection > * {
-    flex: 1; /* Make both components the same width */
+    flex: 1;
 }
 
-/* Styles for individual contact cards */
 .contactUsCard {
     background-color: #ffffff;
-    border: 1px solid #dcdcdc; /* Light gray border */
+    border: 1px solid #dcdcdc;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Neutral gray shadow */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 1.5rem;
     flex: 1;
     min-width: 300px;
@@ -76,10 +64,9 @@
 
 .contactUsCard:hover {
     transform: translateY(-5px);
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Slightly stronger shadow on hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
 
-/* Fake map container */
 .fakeMap {
     display: flex;
     justify-content: center;

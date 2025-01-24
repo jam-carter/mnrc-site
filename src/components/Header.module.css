@@ -1,22 +1,20 @@
-/* Header Styles */
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem 8rem;
     background-color: #fbfef9;
-    color: #363437; /* Adjusted color for better contrast */
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Prominent shadow for better depth */
+    color: #363437;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
     position: sticky;
     top: 0;
-    z-index: 1000; /* Keeps the header on top */
+    z-index: 1000;
 }
 
-/* Logo Styles */
 .logo {
     font-size: 1.8rem;
     font-weight: bold;
-    color: #363437; /* Adjusted for consistency with the theme */
+    color: #363437;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
@@ -25,7 +23,6 @@
     width: auto;
 }
 
-/* Navigation Bar Styles */
 .navBar {
     display: flex;
 }
@@ -39,10 +36,9 @@
 
 .navItem {
     margin: 0 1.5rem;
-    position: relative; /* Required for dropdown positioning */
+    position: relative;
 }
 
-/* Navigation Links */
 .navItem a {
     text-decoration: none;
     color: #363437;
@@ -52,27 +48,26 @@
 }
 
 .navItem a:hover {
-    color: #1e81b0; /* Updated hover color for better visual appeal */
+    color: #1e81b0;
     text-decoration: underline;
 }
 
-/* Dropdown Menu Styles */
 .dropdown {
     position: relative;
 }
 
 .dropdownMenu {
-    display: none; /* Hidden by default */
+    display: none;
     position: absolute;
-    top: 100%; /* Places it below the parent */
+    top: 100%;
     left: 0;
     background-color: #fbfef9;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for dropdown */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 4px;
     padding: 0.5rem 0;
-    z-index: 1001; /* Ensures it stays on top */
+    z-index: 1001;
     list-style: none;
-    min-width: 180px; /* Ensures consistent width */
+    min-width: 180px;
 }
 
 .dropdownItem {
@@ -92,7 +87,6 @@
     color: #1e81b0;
 }
 
-/* Show Dropdown Menu on Hover */
 .dropdown:hover .dropdownMenu {
     display: block;
 }

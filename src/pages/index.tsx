@@ -29,5 +29,4 @@ function App() {
 
 export default App;
 
-//maybe all the rooms on the main page, but have this component to swap between them
 //link https://mui.com/material-ui/react-tabs/

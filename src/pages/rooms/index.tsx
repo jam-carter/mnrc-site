@@ -47,7 +47,7 @@ const RoomsPage = () => {
             <h1 className={styles.sectionHeading}>Our Rooms</h1>
 
             <div className={styles.contentBox}>
-                <div className={styles.container}>
+                <div>
                     <p className={styles.descriptiveText}>
                         Discover our versatile spaces available for hire, perfect for a variety of events and gatherings.
                     </p>

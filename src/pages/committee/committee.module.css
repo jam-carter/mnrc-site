@@ -1,12 +1,12 @@
 .committeePage {
     font-family: Arial, sans-serif;
-    color: #2a2a2a; /* Neutral dark gray text color */
-    background: linear-gradient(to bottom, #f9f9f9, #eaeaea); /* Subtle gray gradient for depth */
+    color: #2a2a2a;
+    background: linear-gradient(to bottom, #f9f9f9, #eaeaea);
 }
 
 .page {
     padding: 20px;
-    background-color: #f9f9f9; /* Light gray background */
+    background-color: #f9f9f9;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -17,8 +17,8 @@
     text-align: center;
     margin-bottom: 40px;
     margin-top: 80px;
-    color: #2a2a2a; /* Neutral dark gray for the heading */
-    font-size: 2.8em; /* Slightly larger heading */
+    color: #2a2a2a;
+    font-size: 2.8em;
     font-weight: bold;
     text-transform: uppercase;
     position: relative;
@@ -29,17 +29,17 @@
     display: block;
     width: 80px;
     height: 4px;
-    background-color: #a94ca9; /* Keep the purple bar unchanged */
+    background-color: #a94ca9;
     margin: 10px auto 0 auto;
     border-radius: 2px;
 }
 
 .container {
-    background-color: #ffffff; /* White box for the content */
+    background-color: #ffffff;
     padding: 30px;
     border-radius: 10px;
-    border: 1px solid #dcdcdc; /* Light gray border */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Neutral gray shadow */
+    border: 1px solid #dcdcdc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 1200px;
     width: 100%;
 }
@@ -48,14 +48,14 @@
     text-align: center;
     font-size: 24px;
     font-weight: bold;
-    color: #2a2a2a; /* Neutral dark gray for titles */
+    color: #2a2a2a;
     margin-bottom: 10px;
 }
 
 .description {
     text-align: center;
     font-size: 16px;
-    color: #4f4f4f; /* Medium gray for descriptions */
+    color: #4f4f4f;
     margin-bottom: 20px;
     line-height: 1.5;
     padding-left: 200px;
@@ -65,28 +65,28 @@
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Adjust for number of members */
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     justify-items: center;
     align-items: center;
 }
 
 .grid > div {
-    background-color: #ffffff; /* White background for grid items */
-    border: 1px solid #dcdcdc; /* Light gray border */
+    background-color: #ffffff;
+    border: 1px solid #dcdcdc;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
 .grid > div h3 {
-    color: #2a2a2a; /* Neutral dark gray for grid item titles */
+    color: #2a2a2a;
     margin-bottom: 10px;
 }
 
 .grid > div p {
-    color: #4f4f4f; /* Medium gray for grid item text */
+    color: #4f4f4f;
     font-size: 14px;
     line-height: 1.5;
 }

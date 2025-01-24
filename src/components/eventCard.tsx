@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./largeEventCard.module.css";
+import styles from "./eventCard.module.css";
 
 type EventCardProps = {
     imageUrl: string;

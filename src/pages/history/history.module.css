@@ -1,23 +1,15 @@
-/* General Page Styles */
 .historyPage {
     font-family: Arial, sans-serif;
-    color: #2a2a2a; /* Neutral dark gray text color */
-    background: linear-gradient(to bottom, #f9f9f9, #eaeaea); /* Subtle gray gradient for depth */
+    color: #2a2a2a;
+    background: linear-gradient(to bottom, #f9f9f9, #eaeaea);
 }
 
-.page {
-    font-family: 'Roboto', Arial, sans-serif;
-    background: linear-gradient(to bottom, #f7f9fc, #eef2f5); /* Subtle gradient */
-    color: #333; /* Neutral color for readability */
-}
-
-/* Page Heading */
 .heading {
     text-align: center;
     margin-bottom: 40px;
     margin-top: 80px;
-    color: #000000; /* Dark gray for contrast */
-    font-size: 2.8em; /* Eye-catching size */
+    color: #000000;
+    font-size: 2.8em;
     font-weight: bold;
     text-transform: uppercase;
     position: relative;
@@ -28,124 +20,18 @@
     display: block;
     width: 80px;
     height: 4px;
-    background-color: #e8c556; /* Accent color */
+    background-color: #e8c556;
     margin: 10px auto 0 auto;
     border-radius: 2px;
 }
 
-/* Timeline Container */
 .timelineContainer {
     position: relative;
     margin: 0 auto;
     padding: 20px;
     max-width: 1200px;
-    background: #ffffff; /* Clean white background */
+    background: #ffffff;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-}
-
-.timelineContainer::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 4px;
-    height: 100%;
-    background-color: #e07a5f; /* Accent line color */
-    z-index: -1;
-}
-
-/* History Block Styles */
-.historyBlock {
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    background-color: #ffffff;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    position: relative;
-    max-width: 800px;
-    margin: 30px auto;
-    transition: transform 0.3s, box-shadow 0.3s; /* Smooth interaction */
-}
-
-.historyBlock:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-}
-
-.historyBlock:nth-child(even) {
-    flex-direction: row-reverse;
-}
-
-.historyBlockImage {
-    flex: 1;
-    position: relative;
-    overflow: hidden;
-    border-radius: 12px;
-    height: 200px;
-    background-size: cover;
-    background-position: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
-}
-
-.historyBlockImage:hover {
-    transform: scale(1.05); /* Slight zoom effect */
-}
-
-.historyBlockText {
-    flex: 2;
-    padding: 20px;
-    background: #ffffff;
-    border-radius: 12px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-left: 20px;
-    position: relative;
-    z-index: 1;
-    color: #2a2a2a; /* Neutral dark gray for text */
-}
-
-.historyBlock:nth-child(even) .historyBlockText {
-    margin-right: 20px;
-    margin-left: 0;
-}
-
-.historyBlockTitle {
-    font-size: 1.8em;
-    font-weight: bold;
-    color: #2a2a2a;
-    margin-bottom: 10px;
-}
-
-.historyBlockContent {
-    font-size: 1em;
-    line-height: 1.6;
-    color: #555; /* Subtle gray for body text */
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .timelineContainer {
-        padding: 15px;
-    }
-
-    .historyBlock {
-        flex-direction: column;
-    }
-
-    .historyBlock:nth-child(even) {
-        flex-direction: column;
-    }
-
-    .historyBlockText {
-        margin: 20px 0 0 0;
-    }
-
-    .historyBlockImage {
-        height: 180px;
-    }
 }
