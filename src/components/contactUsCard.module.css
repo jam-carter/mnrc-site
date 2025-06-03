@@ -2,7 +2,7 @@
     max-width: 600px;
     margin: 0 auto;
     padding: 2rem;
-    background-color: #ffffff;
+    background-color: rgba(63, 138, 147, 0.34);
     border : 1px solid rgba(74, 74, 74, 0.8);
     border-radius: 8px;
 }
