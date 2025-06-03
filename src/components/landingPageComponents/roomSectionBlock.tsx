@@ -8,11 +8,11 @@ interface Room {
 }
 
 const rooms: Room[] = [
-    { id: 1, image: '/images/MainHall/MNRC_MainHall_1.jpg', name: 'Main Hall' },
-    { id: 2, image: '/images/Room-TheSnug/MNRC_Snug_3.jpg', name: 'The Snug' },
-    { id: 3, image: '/images/MainHall/MNRC_MainHall_1.jpg', name: 'The Den' },
-    { id: 4, image: '/images/MainHall/MNRC_MainHall_1.jpg', name: 'Al Fresco Area' },
-    { id: 5, image: '/images/MainHall/MNRC_MainHall_1.jpg', name: 'Meeting Room' },
+    { id: 1, image: '/roomPlaceholder_MainHall.png', name: 'Main Hall' },
+    { id: 2, image: '/roomPlaceholder_TheSnug.png', name: 'The Snug' },
+    { id: 3, image: '/roomPlaceholder_TheDen.png.jpg', name: 'The Den' },
+    { id: 4, image: '/roomPlaceholder_AlFresco.png', name: 'Al Fresco Area' },
+    { id: 5, image: '/roomPlaceholder_MeetingRoom.png', name: 'Meeting Room' },
 ];
 
 const RoomSectionBlock: React.FC = () => {
