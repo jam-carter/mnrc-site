@@ -22,11 +22,7 @@ function Affiliates() {
                     Our affiliate clubs represent the heart and soul of our community, fostering connection, growth, and shared passion. Whether you're interested in sports, music, or recreation, our affiliates offer a welcoming space to explore your interests and join a vibrant network of like-minded individuals.
                 </p>
                 <p className={styles.description}>
-                    Don’t forget to check out our
-                    <a href="/affiliates/sponsers" className={styles.sponserLink}>
-                        Sponsors
-                    </a>
-                    who play a vital role in supporting our community and making these clubs thrive.
+                    Don’t forget to check out our <a href="/affiliates/sponsers" className={styles.sponserLink}>sponsors</a> who play a vital role in supporting our community and making these clubs thrive.
                 </p>
                 <div className={styles.cardsContainer}>
                     <AffiliatesCardFlipped
